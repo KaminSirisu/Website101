@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(300deg, #A8CFEB, #A8CFEB);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+input {
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-family: inherit;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+    padding: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+input:focus {
+    outline: none;
+}
+
+.weather {
+    text-align: center;
+}
+.weather h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.weather h1{
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.con h4 {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    left: 43.5%;
+}
+
+
+
+
